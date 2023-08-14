@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Most used CSS */
+
+.section-head{
+    text-align: center;
+}
+.section-head h2{
+    color: #000;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.section-head p{
+    color: #6e6e6e;
+    font-size: 15px;
+    padding: 0 90px;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
+.ptb-100{
+    padding: 100px 0px;
+}
+/* Header CSS */
+.navbar a img{
+    width: 130px;
+    height: 85px;
+}
+.active{
+    background-color: #098ef6;
+    color: white;
+}
+
+.nav-link{
+    color: #3a3a3a !important;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: white !important;
+    padding: 8px 10px;
+    background-color: #098ef6;
+    transition: .7s;
+}
+.navbar-nav li{
+    margin-left: 20px;
+}
+
+/* Hero CSS */
+
+.hero{
+    height: 625px;
+}
+.hero-item::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    top: 0%;
+    right: 0%;
+    opacity: .6;
+    z-index: -10;
+}
+.hero-bg{
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.hero-item{
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+.hero-item{
+    padding-top: 486px;
+    padding-bottom: 45px;
+}
+.hero-item h1{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.hero-item p{
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+/* About CSS */
+.about{
+    background-color: #1499ff;
+}
+.about-item{
+    text-align: center;
+    padding: 55px 0px;
+}
+.about-item h3{
+    color: white;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.about-item p{
+    font-weight: 400;
+}
+
+/* Service CSS */
+.service-item{
+    padding-top: 85px;
+}
+.service-content{
+    text-align: center;
+}
+.service-content i{
+    font-size: 40px;
+    color: white;
+    background-color: #1e9dff;
+    border-radius: 50%;
+    padding: 25px;
+}
+.service-content h2{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: #3d3d3d;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 600;
+}
+.service-content p{
+    color: #6e6e6e;
+}
+
+/* Portfolio CSS */
+.portfolio{
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.portfolio-item{
+    background-color: #fff;
+    padding-bottom: 35px;
+}
+.p-head{
+    background-color: #8dcf3f;
+    height: 55px;
+    margin: 0 auto;
+    width: 415px;
+}
+.p-head h2{
+    color: #6e6e6e;
+    font-size: 20px;
+    padding-top: 12px;
+}
+.portfolio-item h2{
+    /* background-color: #00a1ff; */
+    color: #fff;
+    font-size: 25px;
+    height: 50px;
+    padding-top: 10px;
+}
+.portfolio-item h1 sup{
+    font-size: 10px;
+    position: relative;
+    top: -45px;
+    left: 25px;
+}
+.portfolio-item h1{
+    font-size: 70px;
+}
+.portfolio-item h1 sub{
+    font-size: 15px;
+    position: relative;
+    left: -15px;
+}
+.portfolio-item p{
+    color: #3baaeb;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.portfolio-item span{
+    color: #b2bbc3;
+}
+.portfolio-list{
+    text-align: center;
+    font-size: 18px;
+    background-color: #fff;
+}
+.portfolio-list p{
+    border: 2px solid #e7f2f0;
+    margin: 0px;
+    padding: 20px 0;
+}
+.bg-green{
+    background-color: #78b336;
+}
+.bg-blue{
+    background-color: #00a1ff;
+}
+
+/* Pricing CSS */
+.pricing{
+    padding: 25px;
+}
+.price-item{
+    margin-top: 55px;
+}
+.price-item img{
+    border: 1.5px solid #f4f4f4;
+    border-radius: 10px;
+}
+.price-text{
+    margin-top: 85px;
+    text-align: center;
+}
+.price-text p{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #2f2f2f;
+}
+.price-text h3{
+    font-size: 18px;
+    font-style: oblique;
+    color: #000000;
+    font-weight: 700;
+}
+
+/* Footer CSS */
+footer{
+    background-color: #000;
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.footer-content{
+    padding-bottom: 85px;
+}
+.footer-content h2{
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.footer-content p{
+    color: #939393;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.footer-content a{
+    text-decoration: none;
+    color: #939393;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.f-credit p{
+    color: white;
+}
+.f-credit p span{
+    color: #40a1eb;
+}
+.f-icon{
+    text-align: right;
+}
+.f-icon a{
+    text-decoration: none;
+    margin-left: 5px;
+}
+.f-icon i{
+    font-size: 18px;
+    color: #46aefe;
+    border: 1px solid #2d2d2d;
+    padding: 10px;
+}
